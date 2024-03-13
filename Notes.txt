@@ -1,0 +1,30 @@
+- Typescript is a Superset of JavaScript
+- Less error
+
+- Writing JavaScript without errors
+- Typescript is all about Type Safety.
+    - In JS 2+"2" = '22', it was happening because there were no type safety
+
+
+- What Typescript does:
+    - Static Checking (A lot of languages use Static Checking like Java,Golang  etc)
+
+- Typescript is a development tool. We still run our project in JS.
+- It is highly dependend on JS, it's a wrapper around JS
+
+- Types:
+    - Number
+    - String
+    - Boolean
+    - Null
+    - Undefined
+    - Void
+    - Object
+    - Array
+    - Tuples
+    - Any
+    - Unknown
+
+
+- Situations in which Typescript will be more helpful:
+    -
