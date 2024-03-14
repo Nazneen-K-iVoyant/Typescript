@@ -233,12 +233,12 @@ type X = Point['x']//Lookup Types  ---> used to get the type of member from any 
 type PointKeys = keyof Point //the keyof type operator can be used to get the keys of a type as a union of string literals, here it is the Union of X and Y
 
 
-export const origin: Point={
-    x:0,
-    y:0
+export const origin: Point = {
+    x: 0,
+    y: 0
 }
 
-origin.x=100
+origin.x = 100
 
 /*Exercise
 Create a mapped type NullablePoint where each property of the Point type is made nullable (i.e., it can also be null). */
@@ -268,20 +268,20 @@ console.log(nullablePoint); // Output: { x: 1, y: null, z: 3 }
 
 /************************************MIXI****************************** */
 
-class Disposable{
-    isDisposed:boolean=false;
-    dispose(){
-        this.isDisposed=true
+class Disposable {
+    isDisposed: boolean = false;
+    dispose() {
+        this.isDisposed = true
     }
 }
 
-class Activable{
-    isActive: boolean=false;
-    activate(){
-        this.isActive=true
+class Activable {
+    isActive: boolean = false;
+    activate() {
+        this.isActive = true
     }
-    deactivate(){
-        this.isActive=false;
+    deactivate() {
+        this.isActive = false;
     }
 }
 
@@ -295,12 +295,12 @@ class Activable{
 //     }
 //  }  ---> General Pattern for creating a mixin function
 
-export function DisposableMixin<Base extends Class>(base:Base){
-    return class extends base{
-        isDisposed:boolean=false;
-        dispose(){
-            this.isDisposed=true
+export function DisposableMixin<Base extends Class>(base: Base) {
+    return class extends base {
+        isDisposed: boolean = false;
+        dispose() {
+            this.isDisposed = true
         }
-        
+
     }
- }
+}
