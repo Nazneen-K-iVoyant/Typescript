@@ -27,6 +27,6 @@ function provideId(id: string | null): string | null {
 
 console.log(provideId("h"));
 
-
+export {}
 
 
