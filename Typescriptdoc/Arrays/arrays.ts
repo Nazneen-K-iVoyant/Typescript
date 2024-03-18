@@ -32,8 +32,22 @@ console.log(fruits)
 
 //Finding Elements
 let pets:string[]=["Cat","Birds"]
-console.log(pets.indexOf("cat"))
+console.log(pets.indexOf("Cat"))
+
+// console.log(pets.includes("Cat"))
 
 //Array length
 let numbers:number[]=[1,2,3,45]
 console.log(numbers.length)
+
+
+/*Exercise:
+Create an array of numbers named ages. Initialize it with three values: 25, 30, and 35. Add a new age, 20, to the start of the array. Finally, remove the last age from the array.*/
+
+
+let ages:number[]=[25,30,35]
+console.log(ages)
+ages.unshift(20)
+console.log(ages)
+ages.pop()
+console.log(ages)

@@ -4,6 +4,7 @@ class MyClass {
 
     constructor(name: string) {
         this.name = name
+        console.log("The constructor is a special method that gets called when we create an instance of the class.")
     }
 }
 

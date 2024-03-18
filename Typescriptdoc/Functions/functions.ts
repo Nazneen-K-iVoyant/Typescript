@@ -12,3 +12,13 @@ const addNum=(a:number,b:number):number=>{
     return a+b
 }
 console.log(addNum(4,56))
+
+/*Exercise
+Create a function named multiply that takes two number parameters and returns their product.*/
+function multiply(c:number,d:number):number{
+    return c*d
+}
+console.log(multiply(4,5))
+
+const arrowMultiply=(e:number,f:number)=> e*f
+console.log(arrowMultiply(6,7))

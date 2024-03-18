@@ -9,3 +9,11 @@ var addNum = function (a, b) {
     return a + b;
 };
 console.log(addNum(4, 56));
+/*Exercise
+Create a function named multiply that takes two number parameters and returns their product.*/
+function multiply(c, d) {
+    return c * d;
+}
+console.log(multiply(4, 5));
+var arrowMultiply = function (e, f) { return e * f; };
+console.log(arrowMultiply(6, 7));

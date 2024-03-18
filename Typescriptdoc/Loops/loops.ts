@@ -23,3 +23,30 @@ for (const bookKey in booksCollection) {
         console.log(`Book Title ${book.title} and book author ${book.author}`)
     }
 }
+
+
+/*Given an object representing a collection of students' grades, use a loop to print out each student's name and their corresponding grades. */
+const gradesCollection = {
+    student1: {
+        name: "Alice",
+        grades: [85, 90, 92]
+    },
+    student2: {
+        name: "Bob",
+        grades: [78, 82, 80]
+    },
+    student3: {
+        name: "Charlie",
+        grades: [95, 88, 92]
+    }
+}
+
+// Your code goes here
+
+for(const students in gradesCollection){
+    const stud=gradesCollection[students]
+    // console.log(stud.name, stud.grades)
+    console.log(`${stud.name}: ${stud.grades.join(', ')}`);
+}
+
+

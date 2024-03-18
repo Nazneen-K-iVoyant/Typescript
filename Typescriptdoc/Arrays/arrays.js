@@ -24,7 +24,16 @@ fruits[1] = "Kiwi";
 console.log(fruits);
 //Finding Elements
 var pets = ["Cat", "Birds"];
-console.log(pets.indexOf("cat"));
+console.log(pets.indexOf("Cat"));
+// console.log(pets.includes("Cat"))
 //Array length
 var numbers = [1, 2, 3, 45];
 console.log(numbers.length);
+/*Exercise:
+Create an array of numbers named ages. Initialize it with three values: 25, 30, and 35. Add a new age, 20, to the start of the array. Finally, remove the last age from the array.*/
+var ages = [25, 30, 35];
+console.log(ages);
+ages.unshift(20);
+console.log(ages);
+ages.pop();
+console.log(ages);
